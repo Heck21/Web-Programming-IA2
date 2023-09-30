@@ -1,0 +1,36 @@
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+* {
+  border: 1px solid black;
+  overflow-x: hidden;
+}
+
+nav {
+  margin: 20px;
+  height: 20%;
+}
+
+main {
+  margin: 20px;
+  height: 60%;
+}
+
+footer {
+  margin: 20px;
+  height: 20%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
