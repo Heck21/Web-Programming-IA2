@@ -7,7 +7,7 @@
 }
 
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 html {
@@ -20,7 +20,7 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: var(--main-color);
-  /* color: var(--main-color); */
+  color: var(--main-color);
 }
 
 ul {
@@ -65,6 +65,81 @@ header > h1 {
   text-align: center;
   margin: 0 0 2rem 0;
   padding: 4rem;
+}
+
+main > h2 {
+  font-size: 3rem;
+  margin: 1rem;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+}
+
+main > p {
+  box-sizing: content-box;
+  width: clamp(45ch, 50%);
+  font-size: 1.3rem;
+  margin: 2rem;
+  padding: 1rem;
+  color: black;
+}
+
+#purpose {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "land prof pers"
+    "devl stry refr";
+}
+
+#land,
+#prof,
+#pers,
+#devl,
+#stry,
+#refr {
+  box-sizing: content-box;
+  width: auto;
+  font-size: 1.3rem;
+  margin: 1rem;
+  padding: 1rem;
+  color: black;
+}
+
+#land:hover,
+#prof:hover,
+#pers:hover,
+#devl:hover,
+#stry:hover,
+#refr:hover {
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  border-radius: var(--radius);
+}
+
+#land {
+  grid-area: land;
+}
+
+#prof {
+  grid-area: prof;
+}
+
+#pers {
+  grid-area: pers;
+}
+
+#devl {
+  grid-area: devl;
+}
+
+#stry {
+  grid-area: stry;
+}
+
+#refr {
+  grid-area: refr;
 }
 
 footer {
