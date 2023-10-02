@@ -6,8 +6,12 @@
   --radius: 15px;
 }
 
-* {
-  /* border: 1px solid black; */
+a,
+a:visited,
+a:hover,
+a:active {
+  color: var(--main-color);
+  text-decoration: none;
 }
 
 html {

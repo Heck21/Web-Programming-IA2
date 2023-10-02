@@ -6,10 +6,6 @@
   --radius: 15px;
 }
 
-/* * {
-    border: 1px solid black;
-} */
-
 html {
   margin: 0;
   padding: 0;
@@ -37,6 +33,14 @@ nav {
   height: auto;
   position: sticky;
   top: 0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: var(--main-color);
+  text-decoration: none;
 }
 
 nav > ul {

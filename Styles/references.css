@@ -34,6 +34,14 @@ nav {
   border-bottom: 2px solid black;
 }
 
+nav > ul > li > a,
+nav > ul > li > a:visited,
+nav > ul > li > a:hover,
+nav > ul > li > a:active {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
 nav > ul {
   display: flex;
   justify-content: flex-start;
