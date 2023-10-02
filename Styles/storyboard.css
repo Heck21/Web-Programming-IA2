@@ -84,6 +84,55 @@ main > p {
   color: black;
 }
 
+#image-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "img1 img2 img3"
+    "img4 img5 img6";
+}
+
+#img1 {
+  grid-area: img1;
+  width: 75%;
+}
+
+#img2 {
+  grid-area: img2;
+  width: 75%;
+}
+
+#img3 {
+  grid-area: img3;
+  width: 75%;
+}
+
+#img4 {
+  grid-area: img4;
+  width: 75%;
+}
+
+#img5 {
+  grid-area: img5;
+  width: 75%;
+}
+
+#img6 {
+  grid-area: img6;
+  width: 75%;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6 {
+  margin: 1rem;
+  padding: 1rem;
+}
+
 #purpose {
   display: grid;
   grid-template-rows: auto;
