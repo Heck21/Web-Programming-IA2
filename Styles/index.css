@@ -18,9 +18,6 @@ body {
   min-height: 100vh;
   background-color: var(--main-color);
   color: var(--main-color);
-  background-image: url("../Assets/Images/index_background.jpg");
-  background-size: 100% 100%;
-  background-blend-mode: multiply;
 }
 
 ul {
