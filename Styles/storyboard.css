@@ -14,6 +14,13 @@ a:active {
   text-decoration: none;
 }
 
+main > p > a,
+main > p > a:visited,
+main > p > a:hover,
+main > p > a:active {
+  color: black;
+}
+
 html {
   margin: 0;
   padding: 0;
